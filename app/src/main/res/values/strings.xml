@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">ProyectoGeoMa+h</string>
+    <string name="app_name">GeoMa+h</string>
     <string name="BotonIniciar">INICIAR</string>
     <string name="txt_Geo">GEOMA+TH</string>
     <string name="BtnIniRegistro">INICIAR</string>
-    <string name="txt_Bienvenido">Bienvenido (a)</string>
-    <string name="txt_Registro">REGISTRO</string>
+    <string name="txt_Bienvenido">BIENVENIDE ANGIE</string>
+    <string name="txt_Registro">REGISTRO </string>
     <string name="txt_usuario">Usuario</string>
-    <string name="Plaintxt_usuario">Usuario</string>
+    <string name="Plaintxt_usuario">  </string>
     <string name="BtnRegistro">INICIAR</string>
 </resources>

@@ -9,12 +9,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txt_Bienvenido"
+        android:text="@string/txt_Geo"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintVertical_bias="0.38" />
 
     <Button
         android:id="@+id/button"
@@ -23,7 +24,11 @@
         android:onClick="Iniciar"
         android:text="@string/BotonIniciar"
         app:icon="@android:drawable/ic_menu_mapmode"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="426dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,8 +13,12 @@
         android:onClick="RegistroIni"
         android:text="@string/BtnIniRegistro"
         app:icon="@android:drawable/btn_star_big_on"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="451dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
 
     <TextView
         android:id="@+id/textView"
@@ -22,6 +26,9 @@
         android:layout_height="wrap_content"
         android:text="@string/txt_Bienvenido"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
 </androidx.constraintlayout.widget.ConstraintLayout>
