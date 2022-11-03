@@ -13,6 +13,20 @@
         android:theme="@style/Theme.ProyectoGeoMah"
         tools:targetApi="31">
         <activity
+            android:name=".GeografiaBienvenidaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MatematicasBienvenidaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SeleccionActivity"
             android:exported="false">
             <meta-data
@@ -20,7 +34,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".RegistroActivity"
+            android:name=".RegistroIniActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

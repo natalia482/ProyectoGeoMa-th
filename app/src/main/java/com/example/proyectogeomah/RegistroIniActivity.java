@@ -6,16 +6,16 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BienvenidoActivity extends AppCompatActivity {
+public class RegistroIniActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bienvenido);
+        setContentView(R.layout.activity_registro_ini);
     }
     //Metodo para el botorn de la pag registro inicio
-    public void RegistroIni(View view){
-        Intent RegistroIni = new Intent(this,RegistroIniActivity.class);
-        startActivity(RegistroIni);
+    public void RegistroUsuario(View view){
+        Intent RegistroUsuario = new Intent(this,SeleccionActivity.class);
+        startActivity(RegistroUsuario);
     }
 }
