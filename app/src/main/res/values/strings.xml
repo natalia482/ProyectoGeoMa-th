@@ -8,4 +8,6 @@
     <string name="txt_usuario">Usuario</string>
     <string name="Plaintxt_usuario">  </string>
     <string name="BtnRegistro">INICIAR</string>
+    <string name="Btn_Matematicas">MATEMÁTICAS</string>
+    <string name="Btn_Geografia">GEOGRAFÍA</string>
 </resources>
