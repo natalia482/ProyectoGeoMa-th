@@ -18,4 +18,6 @@ public class RegistroIniActivity extends AppCompatActivity {
         Intent RegistroUsuario = new Intent(this,SeleccionActivity.class);
         startActivity(RegistroUsuario);
     }
+    //impemetacion gif del pato desde un servidor web
+
 }

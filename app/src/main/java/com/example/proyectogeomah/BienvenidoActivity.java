@@ -13,7 +13,7 @@ public class BienvenidoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenido);
     }
-    //Metodo para el botorn de la pag registro inicio
+    //Metodo para el boton de la pag registro inicio
     public void RegistroIni(View view){
         Intent RegistroIni = new Intent(this,RegistroIniActivity.class);
         startActivity(RegistroIni);
