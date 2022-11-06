@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".PreguntasGeografia.PreguntaDosGeografia">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/btnIncorrecto2P2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Incorrecta2"
         android:text="Alpes, Central y Oriental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="292dp"
+        android:onClick="Incorrecta1"
         android:text="Oriental, Andes y Occidental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,10 +46,12 @@
         android:id="@+id/btnCorrectoP2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Correcta"
         android:text="Oriental, Occidental y Central"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.465" />
+        app:layout_constraintVertical_bias="0.484" />
 </androidx.constraintlayout.widget.ConstraintLayout>

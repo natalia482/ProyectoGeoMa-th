@@ -13,77 +13,84 @@
         android:theme="@style/Theme.ProyectoGeoMah"
         tools:targetApi="31">
         <activity
-            android:name=".IncorrectoGeografiaP5"
+            android:name=".FinalGeogragiaActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".IncorrectoGeografiaP4"
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP5"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".IncorrectoGeografiaP3"
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP4"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".IncorrectoGeografiaP2Activity"
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP3"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".PreguntaCincoGeografia"
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".PreguntaCuatroGeografia"
+            android:name=".PreguntasGeografia.PreguntaCincoGeografia"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".PreguntaTresGeografia"
+            android:name=".PreguntasGeografia.PreguntaCuatroGeografia"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectiGeografiaP5Activity"
+            android:name=".PreguntasGeografia.PreguntaTresGeografia"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoGeografiaP4Activity"
+            android:name=".CorrectoIncorrecto.Correcto.CorrectiGeografiaP5Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoGeografiaP3"
+            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP4Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoGeografiaP2Activity"
+            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP3Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP2Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
