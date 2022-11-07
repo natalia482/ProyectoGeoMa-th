@@ -18,16 +18,16 @@ public class PreguntaUnoMatematicas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pregunta_uno_matematicas);
     }
-    public void Correcta(View view){
-        Intent btn1P1 = new Intent(PreguntaUnoMatematicas.this, CorrectoMatematicasP1Activity.class);
-        startActivity(btn1P1);
-    }
     public void Incorrecta1(View view){
-        Intent btn2P1 = new Intent(PreguntaUnoMatematicas.this, IncorrectoMatematicasP1Activity.class);
-        startActivity(btn2P1);
+        Intent btn2P1M = new Intent(PreguntaUnoMatematicas.this, IncorrectoMatematicasP1Activity.class);
+        startActivity(btn2P1M);
+    }
+    public void Correcta(View view){
+        Intent btn1P1M = new Intent(PreguntaUnoMatematicas.this, CorrectoMatematicasP1Activity.class);
+        startActivity(btn1P1M);
     }
     public void Incorrecta2(View view){
-        Intent btn3P1 = new Intent(PreguntaUnoMatematicas.this, IncorrectoMatematicasP1Activity.class);
-        startActivity(btn3P1);
+        Intent btn3P1M = new Intent(PreguntaUnoMatematicas.this, IncorrectoMatematicasP1Activity.class);
+        startActivity(btn3P1M);
     }
 }

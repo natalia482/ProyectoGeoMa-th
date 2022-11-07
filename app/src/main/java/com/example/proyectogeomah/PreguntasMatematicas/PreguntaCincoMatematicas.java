@@ -6,7 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.proyectogeomah.CorrectoIncorrecto.Correcto.CorrectoMatematicasP5Activity;
+import com.example.proyectogeomah.FinalMatematicasActivity;
 import com.example.proyectogeomah.CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP5;
 import com.example.proyectogeomah.R;
 
@@ -17,7 +17,7 @@ public class PreguntaCincoMatematicas extends AppCompatActivity {
         setContentView(R.layout.activity_pregunta_cuatro_matematicas);
     }
     public void Correcta(View view){
-        Intent btn1P4 = new Intent(PreguntaCincoMatematicas.this, CorrectoMatematicasP5Activity.class);
+        Intent btn1P4 = new Intent(PreguntaCincoMatematicas.this, FinalMatematicasActivity.class);
         startActivity(btn1P4);
     }
     public void Incorrecta1(View view){

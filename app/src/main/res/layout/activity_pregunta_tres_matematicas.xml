@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.294" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/BtnCorrectoP3M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Correcta"
@@ -29,10 +29,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintVertical_bias="0.442" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/BtnIncorrecto1P3M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Incorrecta1"
@@ -42,10 +42,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.524" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/BtnIncorrecto2P3M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Incorrecta2"
@@ -55,5 +55,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679" />
+        app:layout_constraintVertical_bias="0.617" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,8 +8,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:onClick="OnClick"
         android:text="¿cual es el resutlado de la suma de 234 +126?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,9 +20,10 @@
         app:layout_constraintVertical_bias="0.294" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/BtnIncorrecto1P1M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Incorrecta1"
         android:text="456"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +33,10 @@
         app:layout_constraintVertical_bias="0.461" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/BtnCorrectoP1M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Correcta"
         android:text="360"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,9 +46,10 @@
         app:layout_constraintVertical_bias="0.563" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/BtnIncorrecto2P1M"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="Incorrecta2"
         android:text="765"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,4 +57,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.679" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
