@@ -97,6 +97,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP1Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".PreguntasGeografia.PreguntaDosGeografia"
             android:exported="false">
             <meta-data
