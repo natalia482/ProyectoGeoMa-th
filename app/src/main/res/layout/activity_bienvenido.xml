@@ -8,7 +8,6 @@
     tools:context=".BienvenidoActivity">
 
 
-
     <Button
         android:id="@+id/button2"
         android:layout_width="126dp"

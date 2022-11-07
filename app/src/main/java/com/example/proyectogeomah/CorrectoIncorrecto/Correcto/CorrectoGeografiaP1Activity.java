@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.proyectogeomah.PreguntasGeografia.PreguntaDosGeografia;
 import com.example.proyectogeomah.R;
 
-public class CorrectoGeografiaP1ctivity extends AppCompatActivity {
+public class CorrectoGeografiaP1Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

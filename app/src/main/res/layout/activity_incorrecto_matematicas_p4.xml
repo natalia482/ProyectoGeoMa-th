@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP2Activity">
+    tools:context=".CorrectoIncorrecto.Incorrecto.IncorrectoGeografiaP4">
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/button16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="Atras"
@@ -20,10 +20,10 @@
         app:layout_constraintVertical_bias="0.576" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Incorrecto"
+        android:text="INCORRECTO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

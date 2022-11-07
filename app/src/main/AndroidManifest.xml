@@ -69,7 +69,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoIncorrecto.Correcto.CorrectiGeografiaP5Activity"
+            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP5Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -111,13 +111,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP1ctivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".PreguntasGeografia.PreguntaUnoGeografia"
             android:exported="false">
             <meta-data
@@ -125,14 +118,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".CorrectoIncorrecto.Correcto.CorrectoMatematicasActivity"
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -182,6 +168,76 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FinalMatematicasActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP4"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CorrectoIncorrecto.Incorrecto.IncorrectoMatematicasP2Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PreguntasMatematicas.PreguntaCincoMatematicas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PreguntasMatematicas.PreguntaCuatroMatematicas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PreguntasMatematicas.PreguntaTresMatematicas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PreguntasMatematicas.PreguntaDosMatematicas"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PreguntasMatematicas.PreguntaUnoMatematicas"
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

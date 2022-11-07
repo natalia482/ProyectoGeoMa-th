@@ -4,43 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dise_o_animales__2_"
     tools:context=".SeleccionActivity">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Refuerza tu conocimiento en:"
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="421dp"
+        android:layout_height="745dp"
+        android:src="@drawable/seleccion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="171dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="284dp"
+        android:layout_width="317dp"
+        android:layout_height="85dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
         android:onClick="BtnGeografia"
-        android:text="@string/Btn_Geografia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gifImageView"
+        app:layout_constraintVertical_bias="0.691" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="187dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="360dp"
+        android:layout_width="302dp"
+        android:layout_height="91dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
         android:onClick="BtnMatematicas"
-        android:text="@string/Btn_Matematicas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gifImageView"
+        app:layout_constraintVertical_bias="0.428" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

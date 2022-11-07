@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.proyectogeomah.R;
 
-public class CorrectiGeografiaP5Activity extends AppCompatActivity {
+public class CorrectoGeografiaP5Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
