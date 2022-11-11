@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".PreguntasGeografia.PreguntaCuatroGeografia">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="417dp"
+        android:layout_height="730dp"
+        android:src="@drawable/pregunta4geo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btnIncorrecto2P4"
         android:layout_width="wrap_content"
@@ -16,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.803"
+        tools:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView21"
@@ -38,10 +48,11 @@
         android:text="América del Norte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
+        app:layout_constraintVertical_bias="0.692"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/btnCorrectoP4"
@@ -54,5 +65,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462" />
+        app:layout_constraintVertical_bias="0.587"
+        tools:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:src="@drawable/pregunta2geo"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btnIncorrecto2P2"
         android:layout_width="wrap_content"
@@ -13,9 +23,11 @@
         android:text="Alpes, Central y Oriental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        app:layout_constraintVertical_bias="0.812"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/btnIncorrecto1P2"
@@ -25,9 +37,11 @@
         android:text="Oriental, Andes y Occidental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578" />
+        app:layout_constraintVertical_bias="0.711"
+        tools:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView14"
@@ -36,10 +50,11 @@
         android:text="¿Cuáles son las 3 cordIlleras de colombIa?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.292" />
+        app:layout_constraintVertical_bias="0.314"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/btnCorrectoP2"
@@ -49,8 +64,10 @@
         android:text="Oriental, Occidental y Central"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintVertical_bias="0.597"
+        tools:visibility="invisible" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

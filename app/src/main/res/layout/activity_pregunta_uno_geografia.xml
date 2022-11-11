@@ -10,14 +10,23 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿Cuál es el río más largo del mundo?"
         android:onClick="OnClick"
+        android:text="¿Cuál es el río más largo del mundo?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.292" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:src="@drawable/pregunta1geo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/BtnCorrectoP1"
@@ -30,7 +39,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.465" />
+        app:layout_constraintVertical_bias="0.592"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/BtnIncorrecto1P1"
@@ -43,7 +53,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.693"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/BtnIncorrecto2P1"
@@ -56,5 +67,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663" />
+        app:layout_constraintVertical_bias="0.802"
+        tools:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

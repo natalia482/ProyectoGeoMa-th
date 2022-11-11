@@ -18,6 +18,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.294" />
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="417dp"
+        android:layout_height="730dp"
+        android:src="@drawable/pregunta3mate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/BtnCorrectoP3M"
         android:layout_width="wrap_content"
@@ -29,7 +38,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintVertical_bias="0.585"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/BtnIncorrecto1P3M"
@@ -42,7 +52,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintVertical_bias="0.692"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/BtnIncorrecto2P3M"
@@ -55,6 +66,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
+        app:layout_constraintVertical_bias="0.802"
+        tools:visibility="invisible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
