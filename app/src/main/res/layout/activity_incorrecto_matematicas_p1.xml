@@ -15,7 +15,6 @@
         android:backgroundTint="#00FFFFFF"
         android:foregroundTint="#00FFFFFF"
         android:onClick="Atras"
-        android:text=" "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
