@@ -17,10 +17,10 @@
 
     <Button
         android:id="@+id/btnIncorrecto2P2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="341dp"
+        android:layout_height="54dp"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta2"
-        android:text="Alpes, Central y Oriental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -31,16 +31,16 @@
 
     <Button
         android:id="@+id/btnIncorrecto1P2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="329dp"
+        android:layout_height="38dp"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta1"
-        android:text="Oriental, Andes y Occidental"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
+        app:layout_constraintVertical_bias="0.695"
         tools:visibility="invisible" />
 
     <TextView
@@ -58,15 +58,16 @@
 
     <Button
         android:id="@+id/btnCorrectoP2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:background="#00FFFFFF"
         android:onClick="Correcta"
-        android:text="Oriental, Occidental y Central"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597"
+        app:layout_constraintVertical_bias="0.587"
         tools:visibility="invisible" />
 
 

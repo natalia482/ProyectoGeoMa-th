@@ -42,15 +42,17 @@
 
     <Button
         android:id="@+id/BtnBienvenida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_send"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
         android:onClick="BienvenidaM"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.934"
+        app:layout_constraintVertical_bias="0.955"
+        app:strokeColor="#00FFFFFF"
         tools:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>

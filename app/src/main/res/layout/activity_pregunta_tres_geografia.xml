@@ -19,40 +19,42 @@
         android:id="@+id/btnCorrectoP3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta1"
-        android:text="36"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593"
+        app:layout_constraintVertical_bias="0.629"
         tools:visibility="invisible" />
 
     <Button
         android:id="@+id/btnIncorrecto1P3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta2"
-        android:text="34"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689"
+        app:layout_constraintVertical_bias="0.742"
         tools:visibility="invisible" />
 
     <Button
         android:id="@+id/btnIncorrecto2P3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         android:onClick="Correcta"
-        android:text="32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807"
+        app:layout_constraintVertical_bias="0.859"
         tools:visibility="invisible" />
 
     <TextView

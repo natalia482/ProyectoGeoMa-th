@@ -9,7 +9,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="417dp"
         android:layout_height="730dp"
-        android:src="@drawable/pregunta4geo"
+        android:src="@drawable/pregunta4geogr"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,10 +17,10 @@
 
     <Button
         android:id="@+id/btnIncorrecto2P4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="221dp"
+        android:layout_height="44dp"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta2"
-        android:text="América Central"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,6 @@
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿donde se ubIca colombIa?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.434"
@@ -42,10 +41,10 @@
 
     <Button
         android:id="@+id/btnIncorrecto1P4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:background="#00FFFFFF"
         android:onClick="Incorrecta1"
-        android:text="América del Norte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
@@ -56,10 +55,10 @@
 
     <Button
         android:id="@+id/btnCorrectoP4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
         android:onClick="Correcta"
-        android:text="América del Sur"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

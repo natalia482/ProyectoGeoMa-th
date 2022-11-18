@@ -1,14 +1,3 @@
 <resources>
     <string name="app_name">GeoMa+h</string>
-    <string name="BotonIniciar">INICIAR</string>
-    <string name="txt_Geo">GEOMA+TH</string>
-    <string name="BtnIniRegistro">INICIAR</string>
-    <string name="txt_Bienvenido">BIENVENIDO (A)</string>
-    <string name="txt_Registro">REGISTRO </string>
-    <string name="txt_usuario">Usuario</string>
-    <string name="Plaintxt_usuario">  </string>
-    <string name="BtnRegistro">INICIAR</string>
-    <string name="txt_seleccion">Refuerza tus conocimientos en:</string>
-    <string name="Btn_Matematicas">MATEMÁTICAS</string>
-    <string name="Btn_Geografia">GEOGRAFÍA</string>
 </resources>
