@@ -12,28 +12,29 @@
         android:src="@drawable/seleccionjuego"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="310dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginBottom="232dp"
         android:background="#00FFFFFF"
         android:onClick="BtnGeografia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.693"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="304dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="388dp"
+        android:layout_marginBottom="408dp"
         android:background="#00FFFFFF"
         android:onClick="BtnMatematicas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
