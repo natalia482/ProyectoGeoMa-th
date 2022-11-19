@@ -29,10 +29,9 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="296dp"
-        android:layout_height="88dp"
-        android:layout_marginBottom="432dp"
-        android:text="Te damos la Bienvenida a la Sección de Geografía,  un lugar para que refuerces temas básicos del mundo y de Colombia. "
+        android:layout_width="289dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="428dp"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,15 +41,16 @@
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:drawable/ic_menu_send"
+        android:layout_width="91dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00FFFFFF"
         android:onClick="BienvenidaG"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928"
+        app:layout_constraintVertical_bias="0.957"
+        app:strokeColor="#00FFFFFF"
         tools:visibility="invisible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
