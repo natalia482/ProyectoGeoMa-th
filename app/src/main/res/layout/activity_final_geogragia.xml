@@ -31,11 +31,11 @@
         android:id="@+id/button19"
         android:layout_width="204dp"
         android:layout_height="54dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="284dp"
         android:background="#00FFFFFF"
         android:onClick="Inicio"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.574"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
