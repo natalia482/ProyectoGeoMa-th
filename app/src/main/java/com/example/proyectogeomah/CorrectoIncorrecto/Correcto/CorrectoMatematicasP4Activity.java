@@ -16,7 +16,7 @@ public class CorrectoMatematicasP4Activity extends AppCompatActivity {
         setContentView(R.layout.activity_correcto_matematicas_p4);
     }
     public void Pregunta5(View view){
-        Intent Pre5M = new Intent(this, PreguntaCincoMatematicas.class);
-        startActivity(Pre5M);
+        Intent Pre5 = new Intent(this, PreguntaCincoMatematicas.class);
+        startActivity(Pre5);
     }
 }

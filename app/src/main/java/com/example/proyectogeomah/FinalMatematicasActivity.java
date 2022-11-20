@@ -11,7 +11,7 @@ public class FinalMatematicasActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_final_geogragia);
+        setContentView(R.layout.activity_final_matematicas);
     }
     public void Inicio(View view){
         Intent Inicio = new Intent(FinalMatematicasActivity.this, SeleccionActivity.class);

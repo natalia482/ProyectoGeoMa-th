@@ -14,7 +14,7 @@ public class PreguntaCincoMatematicas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pregunta_cuatro_matematicas);
+        setContentView(R.layout.activity_pregunta_cinco_matematicas);
     }
     public void Correcta(View view){
         Intent btn1P4 = new Intent(PreguntaCincoMatematicas.this, FinalMatematicasActivity.class);

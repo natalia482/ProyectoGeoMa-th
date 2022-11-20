@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/correctomate"
-    tools:context=".CorrectoIncorrecto.Correcto.CorrectoGeografiaP4Activity">
+    tools:context=".CorrectoIncorrecto.Correcto.CorrectoMatematicasP4Activity">
 
     <Button
         android:id="@+id/button18"
@@ -22,4 +22,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.973" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
